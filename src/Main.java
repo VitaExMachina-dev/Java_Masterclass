@@ -17,5 +17,7 @@ public class Main {
 //        System.out.println(BarkingDog.shouldWakeUp (false, 2)); // false
 //        System.out.println(BarkingDog.shouldWakeUp (true, 8)); // false
 //        System.out.println(BarkingDog.shouldWakeUp (true, -1)); // false
+
+        System.out.println("hello");
     }
 }
