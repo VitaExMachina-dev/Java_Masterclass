@@ -1,5 +1,3 @@
-package com.company;
-
 public class MegaBytesConverter {
 //    Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with the name kiloBytes.
 //

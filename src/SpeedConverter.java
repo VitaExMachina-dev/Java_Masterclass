@@ -1,5 +1,3 @@
-package com.company;
-
 public class SpeedConverter {
 
 //    1. Write a method called toMilesPerHour that has 1 parameter of type double with the name kilometersPerHour.
