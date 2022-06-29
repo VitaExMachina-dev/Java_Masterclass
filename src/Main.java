@@ -18,6 +18,23 @@ public class Main {
 //        System.out.println(BarkingDog.shouldWakeUp (true, 8)); // false
 //        System.out.println(BarkingDog.shouldWakeUp (true, -1)); // false
 
-        System.out.println("hello");
+        System.out.println(TeenNumberChecker.hasTeen(9, 99, 19)); //true
+      System.out.println(TeenNumberChecker.hasTeen(23, 15, 42)); //true
+      System.out.println(TeenNumberChecker.hasTeen(22, 23, 34)); //false
+      System.out.println(TeenNumberChecker.isTeen(9)); //false
+      System.out.println(TeenNumberChecker.isTeen(13)); //true
+
+        System.out.println(EqualSumChecker.hasEqualSum(1, 1, 1)); //false
+      System.out.println(EqualSumChecker.hasEqualSum(1, 1, 2)); //true
+      System.out.println(EqualSumChecker.hasEqualSum(-1, 1, 0)); //true
+        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.175)); //True
+      System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.175, 3.176)); //False
+      System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.0, 3.0)); //True
+      System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.123, 3.123)); //False
+
+     LeapYear.isLeapYear(-1600); //False
+      LeapYear.isLeapYear(1600); //True
+      LeapYear.isLeapYear(2017); //False
+      LeapYear.isLeapYear(2000); //True   
     }
 }
