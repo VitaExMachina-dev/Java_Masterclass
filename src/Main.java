@@ -42,8 +42,20 @@ public class Main {
         // System.out.println(TeenNumberChecker.isTeen(9)); //false
         // System.out.println(TeenNumberChecker.isTeen(13)); //true
 
-       
+        // Coding Exercise: Seconds and Minutes
+        System.out.println(SecondsAndMinutes.getDurationString(66, 54)); // 1h 6m 54s
+        System.out.println(SecondsAndMinutes.getDurationString(0, 54)); // 0h 0m 54s
+        System.out.println(SecondsAndMinutes.getDurationString(142, 54)); // 2h 22m 54s
+        System.out.println(SecondsAndMinutes.getDurationString(-1, 54)); // invalid value
+        System.out.println(SecondsAndMinutes.getDurationString(66, -54)); // invalid value
+        System.out.println(SecondsAndMinutes.getDurationString(66, 94)); // invalid value
+        System.out.println(SecondsAndMinutes.getDurationString(66, 3)); // 01h 06m 09s
 
+        System.out.println(SecondsAndMinutes.getDurationString(142)); // 0h 2m 22s
+        System.out.println(SecondsAndMinutes.getDurationString(-50)); // invalid value
+        System.out.println(SecondsAndMinutes.getDurationString(982)); // 0h 16m 22s
+        System.out.println(SecondsAndMinutes.getDurationString(245)); // 0h 3m 25s
+        System.out.println(SecondsAndMinutes.getDurationString(65)); // 00h 01m 05s
     
     }
 }
